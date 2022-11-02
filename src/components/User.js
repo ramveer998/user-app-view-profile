@@ -13,12 +13,12 @@ const User = () => {
     }, [])
 
     const clearAll = () => {
-        swal("", "You unfollowed all!", "success");
+        swal("", "You rejected all!", "success");
         setUsers([])
     }
 
     const handleDelete = (id, name) => {
-        swal(name, "You unfollowed!", "success", {
+        swal(name, "You rejected!", "success", {
             button: "Aww yiss!"
         });
 
